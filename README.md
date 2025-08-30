@@ -18,3 +18,10 @@ local Window = YourLibraryName:MakeWindow({
 ```lua
 local Tab1 = Window:MakeTab({"TabName", "lucideIcon"})
 ```
+
+## Buttons
+```lua
+Tab1:AddButton({"ButtonName", function()
+  print("Hello World")
+end})
+```
