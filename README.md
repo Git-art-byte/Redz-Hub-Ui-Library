@@ -25,7 +25,18 @@ Tab1:AddButton({"ButtonName", function()
   print("Hello World")
 end})
 ```
+
 ## Switching Tabs
 ```lua
 Window:SelectTab(Tab1)
+```
+
+## Sections
+```lua
+local Section = Tab2:AddSection({"Section"})
+```
+
+## Paragraphs
+```lua
+local Paragraph = Tab1:AddParagraph({"ParagraphName", "This is a Paragraph."})
 ```
