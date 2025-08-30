@@ -7,9 +7,14 @@ local YourLibraryName = loadstring(game:HttpGet("https://raw.githubusercontent.c
 
 ## Window
 ```lua
-local Window = redzlib:MakeWindow({
-  Title = "redz Hub : Blox Fruits",
-  SubTitle = "by redz9999",
-  SaveFolder = "testando | redz lib v5.lua"
+local Window = YourLibraryName:MakeWindow({
+  Title = "Title",
+  SubTitle = "by YourName",
+  SaveFolder = "FolderName"
 })
+```
+
+## Tabs
+```lua
+local Tab1 = Window:MakeTab({"TabName", "lucideIcon"})
 ```
