@@ -25,3 +25,7 @@ Tab1:AddButton({"ButtonName", function()
   print("Hello World")
 end})
 ```
+## Switching Tabs
+```lua
+Window:SelectTab(Tab1)
+```
