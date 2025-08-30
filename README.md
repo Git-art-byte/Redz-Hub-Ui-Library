@@ -1,3 +1,15 @@
 # Redz-Hub-Ui-Library
 
-<pre> ```lua -- Your Lua script here local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))() -- rest of the code... ``` </pre>
+```lua
+-- Example Lua script
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))(
+)
+
+local Window = redzlib:MakeWindow({
+Title = "redz Hub : Blox Fruits",
+SubTitle = "by redz9999",
+SaveFolder = "testando | redz lib v5.lua"
+})
+
+-- Add tabs, buttons, toggles, etc.
+```
