@@ -1,5 +1,6 @@
 # Redz-Hub-Ui-Library
 
+## Library
 ```lua
 -- Example Lua script
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))(
